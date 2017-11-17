@@ -343,4 +343,4 @@ util.inherits(evCustom, event)
 ```
 
 
-[Promise-A设定](Promise-A设定.md)
+[下一章: Promise-A设定](Promise-A设定.md)

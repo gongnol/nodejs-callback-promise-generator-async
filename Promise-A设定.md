@@ -208,4 +208,4 @@ promise
   })
 ```
 
-[Generator执行](Generator执行.md)
+[下一章: Generator执行](Generator执行.md)

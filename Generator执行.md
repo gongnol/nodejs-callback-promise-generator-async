@@ -227,4 +227,4 @@ co(function* () {
 })
 ```
 
-[async-await模式](async-await模式.md)
+[下一章: async-await模式](async-await模式.md)
