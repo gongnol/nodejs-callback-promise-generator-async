@@ -201,7 +201,7 @@ co(function* () {
 // yield* 在 co koa 中 没什么用
 ```
 
-##题外话
+## 题外话
 值得一提，使用 `Generator` 函数和后续的 `async` 函数对于轮询爬虫，控制接口访问顺序和延缓访问蛮好用的
 ```js
 const co = require('co')
