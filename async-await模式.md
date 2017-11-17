@@ -16,18 +16,18 @@ function readFile(path) {
   })
 }
 
-(async function() {
+!async function() {
   // await 返回的Promise 让后续逻辑在Promise 执行完成
   let res = await readFile('./test.txt')
 
   // ...
   console.log(res)
-})().catch(e => {
+}().catch(e => {
   // return Promise
 })
 
 // 并发
-(async function() {
+!async function() {
   let [t1, t2] = await Promise.all([
     readFile('./test.txt'),
     readFile('./test.txt')
@@ -40,7 +40,7 @@ function readFile(path) {
   let pr2 = readFile('./test.txt')
   await pr1
   await pr2
-})().catch(e => {
+}().catch(e => {
 
 })
 
@@ -127,11 +127,11 @@ async function* readLines(path) {
 }
 
 // 执行 用 for await ... of 来遍历异步
-(async function () {
+!async function () {
   for await (const line of readLines(filePath)) {
     console.log(line);
   }
-})()
+}()
 ```
 
 完！
