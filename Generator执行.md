@@ -212,7 +212,7 @@ function sleep(T) {
   })
 }
 
-const uri = ['http://liveapi.videojj.com', 'http://liveapi.videojj.com', 'http://liveapi.videojj.com']
+const uri = ['http://baidu.com', 'http://baidu.com', 'http://baidu.com']
 
 co(function* () {
   for (let i = 0; i < uri.length; i++) {
@@ -227,3 +227,4 @@ co(function* () {
 })
 ```
 
+[async-await模式](async-await模式.md)

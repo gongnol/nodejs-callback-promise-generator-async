@@ -18,7 +18,7 @@ $(function() {
 	}
 	
 	// callback函数，参数列表规定，第一个参数为错误抛出，第二个参数为响应值
-	request('http://test.liveapi.videojj.com', function (err, data) {
+	request('http://baidu.com', function (err, data) {
 		if (err) {
 		// handle error
 			return
@@ -343,3 +343,4 @@ util.inherits(evCustom, event)
 ```
 
 
+[Promise-A设定](Promise-A设定.md)
