@@ -190,7 +190,7 @@ function sleep(param) {
 }
 ```
 
-##题外话
+## 题外话
 值得一提: `ES` 规范中 `Promise` 构造函数里 resolve 或 reject 方法只有第一次执行有效，多次调用失效，即 `Promise` 状态一旦改变则不能再变。
 ```js
 const promise = new Promise((resolve, reject) => {
