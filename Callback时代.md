@@ -237,7 +237,7 @@ event.emit('foo', 1)  // log 1
 #### 简单的通过 event 机制来控制异步回调流程并行
 以下为 `eventproxy(jacksontian)` 的几个方法原理上的简单实现
 
-```
+```js
 // 实现效果
 // 定义一个自定义的事件构造函数，实例化出一个事件对象
 var ep = new evCustom()
